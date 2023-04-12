@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.captcha {
+    background-color: #eee;
+    border: solid 1px #333333 ;
+    padding: 2em 3em;
+    border-radius: 1em;
+}
+.captcha form label, input {
+    display: block;
+}
+.captcha form label {
+    font-family: "Arial", sans-serif;
+    font-size: 0.9em;
+    color: #333333;
+}
+.captcha form input {
+    margin-top: 0.2em;
+    width: 80%;
+}
